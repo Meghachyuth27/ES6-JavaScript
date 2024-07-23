@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Class-Object</title>
+    </head>
+    <body>
+	<script>
+        class PersonClass{
+            name="Cmv";//instance variable
+            age=20;
+            display(){
+                document.write("My name is:",this.name,"<br>");
+                document.write("My age is:",this.age,"<br>");
+            }
+            me(){
+                document.write("I am CMV");
+            }
+        }
+        var person=new PersonClass();
+        person.display();
+        person.me();
+    </script>  
+    </body>
+</html>
